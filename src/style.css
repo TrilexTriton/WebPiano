@@ -1,0 +1,49 @@
+body{
+    background: bisque;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container{
+    margin: 10% auto;
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+}
+
+.white-keys kbd{
+    display: inline-block;
+    width: 10vw;
+    max-width: 50px;
+    background-color: white;
+    border: 2px ridge grey;
+    text-align: center;
+    padding-top: 28vh;
+    padding-bottom: 2vh;
+    margin: 0;
+    position: relative;
+}
+
+.black-keys kbd{
+    display: inline-block;
+    width: 20px;
+    max-width: 25px;
+    background-color: black;
+    border: 2px ridge grey;
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+flex-direction: row;
+    color: #eee;
+    top:100px;
+    z-index: 2;
+    height: 50px;
+    left: -125%;
+    top: 0%;
+    margin: 0px 20px 0px 12px;
+}
